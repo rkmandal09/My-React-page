@@ -46,16 +46,23 @@
 }
 
 /* Search button*/
-.search{
+
+.search-box{
   font-size: 24px;
   margin-top: 10px;
   margin-bottom: 10px;
   padding-left: 10px;
   background-color: #c8edf6e4;
-  border: 1px solid black;
-  border-radius: 5px;
 }
-
+.search-btn{
+ font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  background-color: #3425b8e4;
+  color :white;
+  cursor: pointer;
+}
 .foodimage:hover{
   border: 1px solid black;
   cursor: pointer;
@@ -83,3 +90,29 @@
   cursor:pointer;
   font-size: 18px;
 }
+
+.container{
+  display:flex;
+  flex-wrap: wrap;
+  padding: 2px;
+  
+}
+
+.con-sim{
+  height: 560px;
+  width: 290px;
+  background-color: rgba(232, 242, 232, 0.689);
+  margin: 5px;
+}
+
+.btn-login{
+  padding: 8px 16px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+} 
+
